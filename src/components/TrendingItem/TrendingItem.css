@@ -1,0 +1,167 @@
+.trendingo{
+  display: flex;
+  gap: 20px;
+}
+.trendingo .section-content {
+    width: 350px;
+    height: 380px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: box-shadow 0.2s ease-in-out;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-shadow: -0.5px 0.5px 4px 0px #0000001A;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+  
+  .trendingo .section-content:hover {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .trendingo .section-body-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 27px;
+    letter-spacing: 0%;    
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background-color: #ffffff;
+    width: 80px;
+    height: 31px;
+    border-radius: 9999px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .trendingo .section-body-content {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+  
+  .trendingo .section-body-content .comedy-night-img {
+    width: 50%;
+    height: 16rem;
+    padding-left: 100px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .trendingo .section-body-content:hover .comedy-night-img {
+    transform: scale(1.05);
+  }
+  
+  .trendingo .main {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .trendingo .main h3 {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0%;    
+    font-weight: 500;
+    margin-bottom: 0.95rem;
+  }
+  
+  .trendingo .main-body {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 1.95rem;
+  }
+  
+  .trendingo .main-body1,
+  .trendingo .main-body2 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #808080;
+    letter-spacing: 0%;    
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .trendingo .main-body1 img,
+  .trendingo .main-body2 img {
+    width: 1.125rem;
+    height: 1.125rem;
+  }
+
+  .trendingo .main-body{
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+  margin-bottom: 0;
+}
+
+.trendingo .main-body div{
+  display: flex;
+  overflow-x: auto;
+  gap: 0.25rem;
+}
+
+.trendingo .main-body div span{
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  background-color: #f3f4f6;
+  border-radius: 0.375rem;
+  font-size: 0.875rem;
+  white-space: nowrap;
+}
+
+@media(max-width: 450px){
+  .trendingo .section-content {
+    width: 300px;
+    height: 382.5px;
+  }
+
+  .trendingo .section-body-text {
+    width: 60px;
+    height: 25px;
+    font-weight: 500;
+    font-size: 11.03px;
+    line-height: 16.54px;
+    letter-spacing: 0%;
+  }
+
+  .trendingo .main h3 {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    letter-spacing: 0%;
+  }
+
+  .trendingo .main {
+    margin-left: 0;
+  }
+
+   .trendingo .main-body {
+    flex-direction: column;;
+  }
+
+  .trendingo .main-body1,
+  .trendingo .main-body2 {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0%;
+  }
+
+    .trendingo .section-body-content .comedy-night-img {
+      padding-left: 30px;
+      width: 80%;
+  }
+}
+  
