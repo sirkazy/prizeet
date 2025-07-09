@@ -2,7 +2,7 @@
 Framework: React.js (Vite)
 Routing: react-router-dom
 Icons: @iconify/react
-Styling: your existing CSS / Tailwind (as in project)
+Styling: Vanilla CSS
 Testing: Jest (with React Testing Library and Jest DOM)
 
 
@@ -32,13 +32,15 @@ Mobile: Horizontally scrollable container with auto‑scroll animation (left ↔
 #  EXPERIENCE SECTION #
 Grouped content into categories.
 Mirror grid vs. scrollable behavior between desktop and mobile, like “Explore Items.”
-FAQ Component
+
+
+#  FAQ COMPONENT #
 Added a subtle background image for visual interest.
 
 
 
 # FOOTER #
-Moved newsletter signup to the end (just before Vendor/Buyer links).
+Moved newsletter signup to the end (just after Vendor/Buyer links).
 Restyled the input and button for better alignment and contrast.
 
 
@@ -84,6 +86,12 @@ yarn preview
 # Run all Jest tests
 npm test
 # or
+yarn test
+
+# For watch mode
+npm test -- --watch
+# or
+yarn test --watch
 yarn test
 
 # For watch mode
